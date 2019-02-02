@@ -1,26 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Home from '../src/Pages/Home'
+import Alexa from '../src/Pages/Alexa'
+import Iphone from '../src/Pages/Iphone'
+import Contact from '../src/Pages/Contact'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+     <Router>
+       <Switch>
+       <Route exact path="/" component={Home}></Route>
+       <Route path="/iOS" component={Iphone}></Route>
+       <Route path="/Alexa" component={Alexa}></Route>
+       <Route path="/Contact" component={Contact}></Route>
+       </Switch>
+     </Router>
+
     );
   }
 }
