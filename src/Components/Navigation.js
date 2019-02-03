@@ -9,7 +9,7 @@ font-family: 'Major Mono Display', monospace;
 
 `
 
-const StyledLinks = styled.h5`
+const StyledLinks = styled.h3`
 margin: 0px 37px 0px 0px;
 text-decoration: none;
 `
