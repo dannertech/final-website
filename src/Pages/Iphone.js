@@ -37,7 +37,7 @@ export default class Iphone extends Component {
         return (
             <div>
                 <NavigationBar />
-                    <StyledHeader>Alexa Apps</StyledHeader>
+                    <StyledHeader>iOS Apps</StyledHeader>
                 <StyledProjectCard>
                     <div>
                 <img src={Cheerup} alt="Image of air balloon on orange background"></img>
