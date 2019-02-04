@@ -39,8 +39,6 @@ export default class Alexa extends Component {
         return(
             <div>
                 <NavigationBar />
-                <p>You're at the Alexa page</p>
-                
                     <StyledHeader>Alexa Apps</StyledHeader>
                 <StyledProjectCard>
                     <div>
@@ -67,6 +65,24 @@ export default class Alexa extends Component {
                 </div>
                 <div>
                 <StyledLinkButton href="https://www.amazon.com/gp/product/B07L4FLFW6?ie=UTF8&ref-suffix=ss_rw">Try it Out</StyledLinkButton>
+                </div>
+              </StyledProjectCard>
+              <StyledProjectCard>
+                    <div>
+                <img src={MyBestFriend} alt="Image of lips against a green background"></img>
+                <p>Have you ever wondered what Alexa would sound like if she was a real person and your best friend? This Alexa app gives you compliments upon request and talks in a different voice than what is originally programmed into Alexa!</p>
+                </div>
+                <div>
+                <StyledLinkButton href="https://www.amazon.com/Danner-Op-LLC-Best-Friend/dp/B07N8224W3/ref=sr_1_2?s=digital-skills&ie=UTF8&qid=1549259480&sr=1-2&keywords=my+best+friend+alexa">Try it Out</StyledLinkButton>
+                </div>
+              </StyledProjectCard>
+              <StyledProjectCard>
+                    <div>
+                <img src={SimpsonSpeak} alt="Image of a donut with sprinkles"></img>
+                <p>Inspired by my Mother's love for the Simpsons, this app uses a 3rd party API (a Simpson quote generator) to speak a random Simpson quote upon request.</p>
+                </div>
+                <div>
+                <StyledLinkButton href="https://www.amazon.com/Danner-Op-LLC-SimpsonsSpeak/dp/B07L3QSPRW/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1549259658&sr=1-1&keywords=simpson+speak+alexa">Try it Out</StyledLinkButton>
                 </div>
               </StyledProjectCard>
             </div>
