@@ -5,7 +5,7 @@ import styled from 'styled-components'
 //import images
 import EightBall from '../Images/eight-ball.png'
 import CatFacts from '../Images/cat-icon.png'
-import MyBestFriend from '../Images/Alexis-logo.png'
+import MyBestFriend from '../Images/Alexis-smaller-logo.png'
 import Cheerup from '../Images/cheerup.png'
 import SimpsonSpeak from '../Images/simpson-speak-donut.png'
 
