@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+
+import { Link } from 'react-router-dom';
+
+import Home from '../Pages/Home'
+import Contact from '../Pages/Contact'
 import '../App.css'
 
 const NavigationBar = styled.div`
@@ -18,8 +23,8 @@ export default class Navigation extends Component {
     render() {
         return (
             <NavigationBar>
-                <a class="NavLinks" href="#"><StyledLinks>Projects</StyledLinks></a>
-                <a class="NavLinks" href="#"><StyledLinks>Contact</StyledLinks></a>
+                <Link class="NavLinks" to="/"><StyledLinks>Projects</StyledLinks></Link>
+                <Link class="NavLinks" to="/Contact"><StyledLinks>Contact</StyledLinks></Link>
             </NavigationBar>
         )
     }
